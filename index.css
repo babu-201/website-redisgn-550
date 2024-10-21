@@ -1,1 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+/* common codes */
+*{
+    max-width: 1300px;
+    margin:0 auto;
+}
 /* Home developing */
+.header{
+  background-color: rgb(220, 222, 245);
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.header ul{
+    display: flex;
+}
+
+.header ul li{
+    list-style: none;
+    padding:10px;
+    margin:10px;
+   
+}
+
+.header ul li a{
+    text-decoration: none;
+}
+.header ul li a:hover
+ {
+    text-decoration: underline;
+  }
+
+.header h1{
+    font-family: "Roboto", sans-serif;
+    color:rgb(53, 49, 49)
+}
+
+.font-size{
+    font-size: 100px;
+}
