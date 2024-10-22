@@ -6,6 +6,11 @@
     max-width: 1400px;
     margin:0 auto;
 }
+
+body{
+    background-color: #3a3c3c;
+    opacity: 1;
+}
 /* Home developing */
 .header{
     width: 100%;
