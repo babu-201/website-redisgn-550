@@ -9,15 +9,16 @@
 
 body{
     background-color: #3a3c3c;
-    opacity: 1;
+    
 }
 /* Home developing */
 .header{
     width: 100%;
   background-color: #343535;
   display: flex;
-  justify-content: space-evenly;
-  border-radius: 10px;
+  justify-content: space-between;
+
+  /* border-radius: 10px; */
   text-align: center;
   align-items: center;
   position:fixed;
@@ -26,11 +27,13 @@ body{
 
 .header ul{
     display: flex;
+    /* margin-left: -12px; */
+    padding-left: 0px;
 }
 
 .header ul li{
     list-style: none;
-    padding:10px;
+    padding:20px;
     margin:10px;
    
 }
@@ -47,6 +50,7 @@ body{
 .header h1{
     font-family: "Roboto", sans-serif;
     color: #D9643A;
+    margin-right:60px
 }
 
 .header h1 span{
@@ -54,3 +58,90 @@ body{
 }
 
 
+/* banner developing */
+
+.banner{
+    background-image: url("images/Business\ Meeting.png");
+    background-size: cover;
+    border-radius: 20px;
+    height: 700px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.card{
+    position: relative;
+    top: 220px;
+    left: -350px;
+    
+    width: 40%;
+    border: 1px solid rgb(255, 255, 255);
+    border-left: none;
+    border-radius: 0px 20px 20px 0px ;
+    padding: 70px;
+    
+    background-color: #375166;
+    opacity: .5;
+
+   
+    
+    
+
+    
+}
+
+.text-container{
+    padding: 10px;
+}
+
+.text-container li{
+    list-style: square;
+}
+
+.card h5{
+    margin-top: 20px;
+    font-size: 20px;
+    
+    
+}
+
+.card h1{
+   font-size: 40px;
+}
+
+
+
+
+
+/* responsive design */
+
+/* for mobile device */
+
+@media screen  and (max-width: 576px) {
+    .header{
+        max-height: 500px;
+        flex-direction: column-reverse;
+       
+        
+    }
+
+    .header ul{
+        display: block;
+        
+        
+    }
+
+    .header h1{
+        margin: 0 auto;
+    }
+}
+
+
+
+/* for medium devices */
+
+
+@media (min-width: 577px) and (max-width: 992px) {
+   
+  }
