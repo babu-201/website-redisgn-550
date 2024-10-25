@@ -114,20 +114,34 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* responsive design */
 
 /* for mobile device */
 
 @media screen  and (max-width: 576px) {
+
+    /* header responsive */
     .header{
         max-height: 500px;
         flex-direction: column-reverse;
-       
-        
-    }
+        opacity: 1;
+       }
+
 
     .header ul{
         display: block;
+        padding-left: 0px;
         
         
     }
@@ -135,13 +149,64 @@ body{
     .header h1{
         margin: 0 auto;
     }
+
+/* banner responsive */
+
+.banner{
+    background-size: 100%;
+}
+.banner ul{
+    padding: 0px;
+}
+  .card{
+    position: absolute;
+    top: 54%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px ;
+    padding: 0px;
+    padding-top: 100px;
+    
+    text-align: center;
+    align-items: center;
+
+  }
+
+  .card h1{
+    font-size: 30px;
+ }
+
+ .card h5{
+    margin-top: 20px;
+    font-size: 15px;
+    
+    
 }
 
+.text-container li{
+    list-style: none;
+}
+
+
+  
+}
 
 
 /* for medium devices */
 
 
 @media (min-width: 577px) and (max-width: 992px) {
-   
+/* header responsive */
+.header h1{
+    padding: 15px;
+    margin: 0px;
+}
+
+
+/* banner responsize */
+     .card{
+        left: 0px;
+        border-radius: 15px;
+     }
   }
