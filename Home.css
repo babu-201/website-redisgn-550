@@ -22,6 +22,7 @@ body{
   text-align: center;
   align-items: center;
   position:fixed;
+  z-index: 1;
   
 }
 
@@ -62,6 +63,7 @@ body{
 
 .banner{
     background-image: url("images/Business\ Meeting.png");
+    background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
     height: 700px;
@@ -73,13 +75,12 @@ body{
 .card{
     position: relative;
     top: 220px;
-    left: -350px;
     
     width: 40%;
     border: 1px solid rgb(255, 255, 255);
     border-left: none;
-    border-radius: 0px 20px 20px 0px ;
-    padding: 70px;
+    border-radius: 100px 0px 100px 0px ;
+    padding: 3rem;
     
     background-color: #375166;
     opacity: .5;
@@ -136,6 +137,7 @@ body{
         max-height: 500px;
         flex-direction: column-reverse;
         opacity: 1;
+       
        }
 
 
@@ -153,33 +155,49 @@ body{
 /* banner responsive */
 
 .banner{
-    background-size: 100%;
+ background-image: none;
+
+
+
 }
 .banner ul{
     padding: 0px;
 }
   .card{
+    background-image: url('images/Business\ Meeting.png');
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: 100%;
     position: absolute;
     top: 54%;
     left: 0%;
-    height: 100%;
+  
     width: 100%;
-    border-radius: 0px 0px 20px 20px ;
+    border-radius:0px ;
     padding: 0px;
-    padding-top: 100px;
+  
     
     text-align: center;
     align-items: center;
+
+    /* opacity: .9; */
+
 
   }
 
   .card h1{
     font-size: 30px;
+    padding: 20px;
+    color:rgb(119 84 84);
+    
+    
+    
  }
 
  .card h5{
     margin-top: 20px;
     font-size: 15px;
+    color: rgb(169 119 119);
     
     
 }
@@ -188,7 +206,9 @@ body{
     list-style: none;
 }
 
-
+.text-container{
+    padding: 0px;
+}
   
 }
 
