@@ -6,6 +6,7 @@
     max-width: 1400px;
     margin:0 auto;
     
+    
 }
 
 body{
@@ -161,19 +162,20 @@ body{
     color: white;
 }
 
+
 .service-container{
     display: flex;
     background-color: #eeeded;
     border-radius: 20px;
     color: rgb(27, 26, 26);
-    text-align: center;
-    align-items: center;
+    
     
 }
 
 .service-div{
     width: 50%;
     padding: 30px;
+    
 
 }
 
@@ -185,7 +187,7 @@ body{
 .service-img img{
     width: 100%;
     height: 30rem;
-     border-radius: 20px;
+    border-radius: 20px;
 }
 .service-div h2{
      font-size: 40px;
@@ -220,15 +222,48 @@ body{
      
 }
 
+.background{
+    background-color: #ecc79b;
+    border-radius: 0px 20px 20px 0px;
+    
+}
+
+/* .div-height{
+      height: 26.6rem;
+} */
+/* service-03 and four also ended */
+
+.center-02{
+    
+    align-content: center;
+}
+
+.btn{
+    text-align: right;
+}
+
+.padding{
+    padding: 0px;
+}
+
+#border-radius-2{
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+
 /* responsive design */
 
 /* for mobile device */
 
 @media screen  and (max-width: 576px) {
 
+    *{
+        box-sizing: border-box;
+    }
     /* header responsive */
     .header{
-        max-height: 500px;
+        max-height: 700px;
         flex-direction: column-reverse;
         opacity: 1;
        
@@ -267,12 +302,13 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
-    top: 54%;
+    top: 65%;
     left: 0%;
   
     width: 100%;
     border-radius:0px ;
     padding: 0px;
+    margin-top: -80px;
   
     
     text-align: center;
@@ -314,13 +350,15 @@ body{
 /* article responsive */
 .article{
     display: block;
+    margin-top: -140px;
    
 }
 
 .article-description{
     width: 100%;
    text-align: center;
-    padding:0px;
+    padding:30px;
+    border-radius: 0px 0px 20px 20px;
 }
 .article-img{
     width: 100%;
@@ -357,12 +395,31 @@ body{
 }
 
 
+.background{
+    
+    height: auto;
+}
 
+.center{
+    padding: 0px;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+}
 
+.width{
+    width:100%
+}
+
+.border-radius{
+    border-radius: 20px 20px 0 0;
+}
 
 
 
 }
+
 
 
 
