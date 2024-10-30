@@ -5,7 +5,8 @@
 *{
     max-width: 1400px;
     margin:0 auto;
-    
+    box-sizing: border-box;
+   
     
 }
 
@@ -15,10 +16,12 @@ body{
 }
 /* Home developing */
 .header{
-  width: 100%;
-  background-color: #343535;
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    
+    width: 100%;
+    background-color: #343535;
+  
+  
 
   /* border-radius: 10px; */
   text-align: center;
@@ -30,7 +33,7 @@ body{
 
 .header ul{
     display: flex;
-    /* margin-left: -12px; */
+    margin-left: 30px;
     padding-left: 0px;
 }
 
@@ -67,7 +70,7 @@ body{
     background-image: url("images/Business\ Meeting.png");
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 20px;
+   
     height: 700px;
     color: rgb(255, 255, 255);
 }
@@ -119,35 +122,42 @@ body{
 
 .article{
     display: flex;
+    height: 30rem;
         
     
 }
 
 .article-description{
-    width: 50%;
-    padding: 40px;
+   width: 50%;
+   padding: 30px;
     background-color: rgb(192, 153, 116);
-    border-radius: 20px;
-    margin:10px 5px 5px 0;
-    color: white;
+    border-radius: 0px 0px 0px 20px;
+    margin:0px 5px 5px 0;
+    align-content: center;
+    
 
 }
 
 .article-description h3{
-    font-size: 50px;
+    font-size: 30px;
+    color: #343535;
+    font-weight: 800;
+    padding: 20px;
+    
 }
 
 .article-description p{
-    padding-top: 20px;
-    font-size: 30px;
+    padding: 20px;
+    font-size: 20px;
+    color:white;
 }
 .article-img{
     width: 50%;
-    margin: 10px 0px 5px 5px;
+    margin: 0px 0px 5px 0px;
 }
 
 .article-img img{
-    border-radius: 20px;
+    border-radius: 0px 0px 20px 0px;
     width: 100%;
     height: 100%;
  
@@ -160,6 +170,8 @@ body{
     padding: 30px;
     text-align: center;
     color: white;
+    background-color: rgb(113, 102, 102);
+    border-radius: 10px 10px 0px 0px;
 }
 
 
@@ -170,6 +182,9 @@ body{
     color: rgb(27, 26, 26);
     
     
+}
+.border-radius-4{
+    border-radius: 0px 0px 20px 20px;
 }
 
 .service-div{
@@ -231,7 +246,7 @@ body{
 /* .div-height{
       height: 26.6rem;
 } */
-/* service-03 and four also ended */
+
 
 .center-02{
     
@@ -243,14 +258,18 @@ body{
 }
 
 .padding{
-    padding: 0px;
+    padding: 10px;
 }
 
 #border-radius-2{
     border-radius: 20px 0px 0px 20px;
 }
 
+.background-2{
+    background-color: #ecc79b;
+}
 
+/* service-03 and four also ended */
 
 /* responsive design */
 
@@ -272,7 +291,8 @@ body{
 
     .header ul{
         display: block;
-        padding-left: 0px;
+        /* padding-left: 0px; */
+        margin: 0 auto;
         
         
     }
@@ -416,14 +436,24 @@ body{
     border-radius: 20px 20px 0 0;
 }
 
+.margin-2{
+ margin-top: 627px;
+ padding-top: 20px;
+}
+.padding-top{
+    padding: 20px 0px 20px 0px;
+}
 
+.border-radius-small{
+    border-radius: 0px 0px 10px 10px;
+}
+
+#border-radius-small-2{
+    border-radius: 10px;
 
 }
 
-
-
-
-
+}
 /* for medium devices */
 
 
