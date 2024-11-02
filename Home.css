@@ -523,10 +523,12 @@ font-size: 20px;
 }
 
 /* footer responsive */
+
 .footer-container{
     grid-template-columns: 1fr;
     padding: 0px;
     margin: 0 auto;
+    text-align: center;
 }
 .footer-container h1{
     font-size: 20px;
@@ -545,12 +547,28 @@ font-size: 20px;
 .social{
     margin-bottom: 20px;
 }
+.social h2{
+    text-decoration: underline;
+}
 .contact{
     text-align: center;
 }
 .contact p{
     font-size: 20px;
 }
+.business-info p{
+  margin-left: -20px;
+}
+.navigation h2{
+    display: none;
+}
+.navigation ul li{
+    text-decoration: underline;
+}
+.navigation ul{
+    margin-left: -40px;
+}
+
 }
 /* for medium devices */
 
