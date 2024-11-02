@@ -17,7 +17,7 @@ body{
 /* Home developing */
 .header{
     display: flex;
-    
+    flex-direction: row-reverse;
     width: 100%;
     background-color: #343535;
   
@@ -33,8 +33,7 @@ body{
 
 .header ul{
     display: flex;
-    margin-left: 30px;
-    padding-left: 0px;
+    margin-right:60px;
 }
 
 .header ul li{
@@ -56,7 +55,9 @@ body{
 .header h1{
     font-family: "Roboto", sans-serif;
     color: #D9643A;
-    margin-right:60px
+    
+    margin-left: 30px;
+    padding-left: 0px;
 }
 
 .header h1 span{
@@ -274,7 +275,9 @@ body{
 }
 /* service-03 and four also ended */
 
-
+.btn-2{
+    padding: 10px;
+}
 /* footer design */
 .footer{
     background-color:#161616;
@@ -362,6 +365,7 @@ font-size: 20px;
         display: block;
         /* padding-left: 0px; */
         margin: 0 auto;
+        padding:0px;
         
         
     }
